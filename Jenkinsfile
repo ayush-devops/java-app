@@ -2,7 +2,8 @@ pipeline{
     agent any
     tools { 
         maven 'maven' 
-        jdk 'jdk' 
+        jdk 'jdk'
+        git 'git' 
     }
     environment { 
         registry = "ayushwebkul/java-app" 
