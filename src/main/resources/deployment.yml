@@ -1,4 +1,4 @@
-apiVersion: apps/v1 
+apiVersion: v1 
 kind: Deployment    
 metadata:              
   name: springboot-k8s
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot-k8s
-          image: springboot-k8s:1.0
+          image: ayushwebkul/java-app:${BUILD_NUMBER}
           ports:
             - containerPort: 8080
 
