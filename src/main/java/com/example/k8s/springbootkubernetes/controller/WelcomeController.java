@@ -8,7 +8,7 @@ public class WelcomeController {
 	
 	@RequestMapping("/greeting")
 	public String greeting() {
-		return "Welcome to my youtube channel";
+		return "k8s deployment successfull";
 	}
 
 }
