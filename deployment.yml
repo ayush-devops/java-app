@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: springboot-k8s
-          image: ayushwebkul/springboot:tagVersion
+          image: ayushwebkul/java-app:tagVersion
           ports:
             - containerPort: 8080
