@@ -8,7 +8,7 @@ public class WelcomeController {
 	
 	@RequestMapping("/greeting")
 	public String greeting() {
-		return "k8s CI/CD successfull";
+		return "k8s CI/CD successfull along with github trigger";
 	}
 
 }
