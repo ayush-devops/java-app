@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: springboot-k8s
-          image: ayushwebkul/springboot:34
+          image: ayushwebkul/springboot:44
           ports:
             - containerPort: 8080
