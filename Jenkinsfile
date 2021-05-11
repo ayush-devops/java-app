@@ -21,7 +21,7 @@ pipeline{
         
         stage('mvn build'){
             steps{
-               sh "mvn clean install && mvn build"
+               sh "mvn clean install"
             }
         }
         stage('Building our image') { 
